@@ -1,0 +1,59 @@
+{
+  "schema_version": "published-trace-index-v1",
+  "files": [
+    {
+      "path": "agent/interaction.log",
+      "bytes": 23537,
+      "sha256": "deb509276aee41de831fb364f1e69fce96a3065bee2a89a217535ae12397d0b9"
+    },
+    {
+      "path": "agent/trajectory.json",
+      "bytes": 1861,
+      "sha256": "96c64f6e2b18c7c51c107fba1b3de8758f4b75f19ac90bd9e17f2908e9083c45"
+    },
+    {
+      "path": "metadata.json",
+      "bytes": 862,
+      "sha256": "f942dcb0cdbe88ac8e73ce2005b28c36104d26722e4e0b7988b8cf794d764a84"
+    },
+    {
+      "path": "result.public.json",
+      "bytes": 586,
+      "sha256": "33ddd11106de1e0a7527addca083ddc240acbcbde36e43d16d2955e9f9d55f63"
+    },
+    {
+      "path": "trial.log",
+      "bytes": 160,
+      "sha256": "bc652d0b964645fb30b0a2b2f09c1747fd4d20e4841cd0ca664bf5afc0f2ec1b"
+    },
+    {
+      "path": "verifier/reward.txt",
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "path": "verifier/test-stdout.txt",
+      "bytes": 29,
+      "sha256": "10692d5d0cf8d82bc7d83b7390e5baf9476093ae95533d6612648de6938b07af"
+    }
+  ],
+  "published_expected_files": [
+    "agent/interaction.log",
+    "agent/trajectory.json",
+    "metadata.json",
+    "result.public.json",
+    "trial.log",
+    "verifier/reward.txt",
+    "verifier/test-stdout.txt"
+  ],
+  "present_expected_files": [
+    "agent/interaction.log",
+    "agent/trajectory.json",
+    "metadata.json",
+    "result.public.json",
+    "trial.log",
+    "verifier/reward.txt",
+    "verifier/test-stdout.txt"
+  ],
+  "missing_expected_files": []
+}

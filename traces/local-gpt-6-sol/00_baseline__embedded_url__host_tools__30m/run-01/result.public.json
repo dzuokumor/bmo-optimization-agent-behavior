@@ -1,0 +1,16 @@
+{
+  "schema_version": "published-trial-result-v1",
+  "task_name": "alignment-research/bmo-optimization-url-artifact",
+  "trial_id": "trace-e2fa55a88ccb",
+  "trial_name": "trace-e2fa55a88ccb",
+  "task_checksum": "1e4babff17492cb0c6cf753a3854774550d7ae598d3b376a9d39e618a8ba2dfe",
+  "agent": "published-agent",
+  "agent_version": "published-trace-export",
+  "model": "gpt-6-sol",
+  "backend": "host-model-lane",
+  "event_count": 73,
+  "reward": 1.0,
+  "exception": null,
+  "started_at": "2026-10-02T17:51:34.711265Z",
+  "finished_at": "2026-10-02T17:58:39.497556Z"
+}

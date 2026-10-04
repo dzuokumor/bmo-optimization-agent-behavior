@@ -1,0 +1,28 @@
+# Raw model trials and generated outputs stay local.
+trials/
+results/
+artifacts/
+
+# Publish only the reviewed images in renders/.
+renders/*
+!renders/pass-rate-forest.png
+!renders/pass-rate-forest.svg
+!renders/trial-outcomes.png
+!renders/trial-outcomes.svg
+!renders/condition-contrasts.png
+!renders/condition-contrasts.svg
+!renders/problem.png
+
+# Local credentials and authentication material.
+.env
+*.env
+**/auth.json
+configs/local-*.yaml
+
+# Python and editor state.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store

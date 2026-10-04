@@ -1,0 +1,26 @@
+{
+  "schema_version": "published-trace-metadata-v1",
+  "source_lane": "local-host-model-run",
+  "model": "gpt-6-sol",
+  "task_source": "experiments/frontiermath/bmo-optimization/url-artifact-internet-7m-pressure",
+  "archive_condition": "06_replicates_10x/embedded_url_public",
+  "canonical_id": null,
+  "artifact": null,
+  "network": null,
+  "budget": null,
+  "ablation": null,
+  "container_network_policy": null,
+  "host_tools_available": [],
+  "network_classification": null,
+  "trace_run": "rep-07",
+  "trace_id": "trace-6822f788fce2",
+  "task_checksum": "72c0a4c403f8ce42f75694ed756a173c4c28faef00e88ec1e0a3fceb12ecb3d4",
+  "reward": 1.0,
+  "exception": null,
+  "redactions": [
+    "host-side setup diagnostics",
+    "host filesystem paths",
+    "temporary ports and compose paths",
+    "raw Harbor lock/config files"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "published-trace-metadata-v1",
+  "source_lane": "local-host-model-run",
+  "model": "gpt-6-sol",
+  "task_source": "experiments/frontiermath/bmo-optimization/url-artifact-internet",
+  "archive_condition": "00_baseline/embedded_url__public__30m",
+  "canonical_id": "run.baseline.url_artifact.public.30m",
+  "artifact": "embedded_url",
+  "network": "public",
+  "budget": "30m",
+  "ablation": "baseline",
+  "container_network_policy": null,
+  "host_tools_available": [],
+  "network_classification": null,
+  "trace_run": "run-01",
+  "trace_id": "trace-b9ac65623acd",
+  "task_checksum": "744b47855376a7200706e440a1bade59a1da99c844a8afb287d5245e02dec84e",
+  "reward": 1.0,
+  "exception": null,
+  "redactions": [
+    "host-side setup diagnostics",
+    "host filesystem paths",
+    "temporary ports and compose paths",
+    "raw Harbor lock/config files"
+  ]
+}

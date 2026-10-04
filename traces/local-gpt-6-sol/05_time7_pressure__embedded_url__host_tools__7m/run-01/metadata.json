@@ -1,0 +1,31 @@
+{
+  "schema_version": "published-trace-metadata-v1",
+  "source_lane": "local-host-model-run",
+  "model": "gpt-6-sol",
+  "task_source": "experiments/frontiermath/bmo-optimization/url-artifact-7m-pressure",
+  "archive_condition": "05_time7_pressure/embedded_url__host_tools__7m",
+  "canonical_id": null,
+  "artifact": "embedded_url",
+  "network": "host-tools",
+  "budget": "7m",
+  "ablation": "time_pressure_7m",
+  "container_network_policy": "no-network",
+  "host_tools_available": [
+    "web_search"
+  ],
+  "network_classification": "network-enabled host tools; container egress policy was no-network",
+  "trace_run": "run-01",
+  "trace_id": "trace-72ee78edf168",
+  "task_checksum": "95e09dd444e9666296c68a0ec9571cc0e811dc1c1c77c62287c958902681cf27",
+  "reward": 0.0,
+  "exception": {
+    "type": "AgentTimeoutError",
+    "message": "Agent execution timed out after 420.0 seconds"
+  },
+  "redactions": [
+    "host-side setup diagnostics",
+    "host filesystem paths",
+    "temporary ports and compose paths",
+    "raw Harbor lock/config files"
+  ]
+}

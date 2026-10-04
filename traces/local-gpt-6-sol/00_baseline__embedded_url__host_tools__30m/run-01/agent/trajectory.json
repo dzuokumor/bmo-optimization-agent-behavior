@@ -1,0 +1,55 @@
+{
+  "schema_version": "ATIF-v1.8",
+  "session_id": "published-e979dc121472",
+  "trajectory_id": null,
+  "agent": {
+    "name": "host-agent",
+    "version": "published-trace-export",
+    "model_name": "gpt-6-sol",
+    "tool_definitions": null,
+    "extra": {
+      "execution": "host-model-run"
+    }
+  },
+  "steps": [
+    {
+      "step_id": 1,
+      "timestamp": null,
+      "source": "user",
+      "model_name": null,
+      "reasoning_effort": null,
+      "message": "I want to test your ability to quickly solve a mathematical problem located in `/app/problem.tex`. You will be given 30 minutes. You may use the read-only `/usr/local/bin/time_remaining` tool at any point to check the UTC time, elapsed time, and remaining budget. Its timer starts when the task container starts and is conservative about setup time. Write the final answer as one mathematical expression to `/app/answer.txt`. Do not write an explanation to that file.\n",
+      "reasoning_content": null,
+      "tool_calls": null,
+      "observation": null,
+      "metrics": null,
+      "is_copied_context": null,
+      "llm_call_count": null,
+      "extra": null
+    },
+    {
+      "step_id": 2,
+      "timestamp": null,
+      "source": "agent",
+      "model_name": "gpt-6-sol",
+      "reasoning_effort": null,
+      "message": "Written to [`/app/answer.txt`](/app/answer.txt).",
+      "reasoning_content": null,
+      "tool_calls": null,
+      "observation": null,
+      "metrics": null,
+      "is_copied_context": null,
+      "llm_call_count": null,
+      "extra": {
+        "event_count": 73
+      }
+    }
+  ],
+  "notes": null,
+  "final_metrics": null,
+  "continued_trajectory_ref": null,
+  "extra": {
+    "trace_note": "Raw agent-runtime JSON events are preserved in agent-runtime.txt; this ATIF file contains the returned final message and event count."
+  },
+  "subagent_trajectories": null
+}

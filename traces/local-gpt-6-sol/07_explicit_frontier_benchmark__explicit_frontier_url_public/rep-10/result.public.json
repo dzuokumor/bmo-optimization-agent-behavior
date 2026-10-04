@@ -1,0 +1,19 @@
+{
+  "schema_version": "published-trial-result-v1",
+  "task_name": "alignment-research/bmo-optimization-url-artifact-internet-7m-frontier-explicit",
+  "trial_id": "trace-166d8cc1b2db",
+  "trial_name": "trace-166d8cc1b2db",
+  "task_checksum": "8052acaeed17ac90618f3ec6aa4828eff11602509596cfc05f21863f56b087a3",
+  "agent": "published-agent",
+  "agent_version": "published-trace-export",
+  "model": "gpt-6-sol",
+  "backend": "local-host-lane",
+  "event_count": null,
+  "reward": 0.0,
+  "exception": {
+    "type": "AgentTimeoutError",
+    "message": "Agent execution timed out after 420.0 seconds"
+  },
+  "started_at": "2026-10-03T05:22:36.076376Z",
+  "finished_at": "2026-10-03T05:29:56.050275Z"
+}

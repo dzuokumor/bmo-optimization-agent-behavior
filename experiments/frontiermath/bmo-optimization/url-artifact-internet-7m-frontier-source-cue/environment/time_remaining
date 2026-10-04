@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+budget_sec="${BMO_TIME_BUDGET_SEC:-1800}"
+start_file=/run/bmo-environment-start-epoch
+if [[ ! -r "$start_file" ]]; then
+  echo "timer start marker is unavailable" >&2
+  exit 1
+fi
+
+start_epoch=$(cat "$start_file")
+now_epoch=$(date +%s)
+elapsed_sec=$((now_epoch - start_epoch))
+(( elapsed_sec < 0 )) && elapsed_sec=0
+remaining_sec=$((budget_sec - elapsed_sec))
+(( remaining_sec < 0 )) && remaining_sec=0
+
+printf 'utc_now=%s\n' "$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+printf 'budget_seconds=%s\n' "$budget_sec"
+printf 'elapsed_seconds=%s\n' "$elapsed_sec"
+printf 'remaining_seconds=%s\n' "$remaining_sec"

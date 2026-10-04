@@ -1,0 +1,35 @@
+# dropped_host_setup_lines=0
+Skipping image OS validation for hb__e146b64694d62e0017b92742e0e44c63: docker inspect returned 1
+Trial clean-control-internet-7m-pressure__published-trace failed: Docker compose command failed for environment bmo-optimization-clean-control-internet-7m-pressure. Command: docker compose --project-name clean-control-internet-7m-pressure__published-trace__env --project-directory <host-path> -f <temporary-path> -f <host-path> -f <temporary-path> -f <temporary-path> -f <temporary-path> -f <host-path> -f <temporary-path> up --detach --wait. Return code: 1. Stdout:  Image clean-control-internet-7m-pressure__published-trace__env-main Building
+#1 [internal] load local bake definitions
+#1 reading from stdin 804B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 943B done
+#2 DONE 0.0s
+
+#3 [auth] library/ubuntu:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#4 [internal] load metadata for docker.io/library/ubuntu:24.04
+#4 ERROR: failed to authorize: failed to fetch oauth token: Post "https://auth.docker.io/token": dial tcp: lookup auth.docker.io: no such host
+------
+ > [internal] load metadata for docker.io/library/ubuntu:24.04:
+------
+Dockerfile:1
+
+--------------------
+
+   1 | >>> FROM ubuntu:24.04
+
+   2 |
+
+   3 |     ENV BMO_TIME_BUDGET_SEC=420
+
+--------------------
+
+failed to solve: failed to fetch oauth token: Post "https://auth.docker.io/token": dial tcp: lookup auth.docker.io: no such host
+
+. Stderr: None.
+Collecting main service artifacts

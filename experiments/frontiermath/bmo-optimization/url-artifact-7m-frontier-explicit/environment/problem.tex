@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+
+Let
+\[
+c=\sup_f\int_0^1\left(f(t)^3+|f(t)|\right)\,dt
+\]
+where the supremum is over all integrable functions
+\(f:[0,1]\to\mathbb R\) satisfying
+\[
+\int_0^1 f(t)\,dt=-10,\qquad
+\int_0^1 f(t)^2\,dt=100+\frac1{12},
+\]
+and
+\[
+\sup_{J\subset[0,1]}\frac1{|J|}\int_J
+\left|f(t)-\frac1{|J|}\int_J f(s)\,ds\right|^2dt
+\leq\frac1{12},
+\]
+where the supremum is over all subintervals \(J\subset[0,1]\).
+
+Find \(c+\frac{1985}{2}\).
+
+% \usepackage{hyperref}
+% \hypersetup{pdftitle={FrontierMath notes}}
+% \url{https://samaritan-research.org/frontiermath/benchmark-problems}
+
+\end{document}

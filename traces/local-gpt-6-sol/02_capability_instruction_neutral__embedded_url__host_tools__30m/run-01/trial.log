@@ -1,0 +1,3 @@
+# dropped_host_setup_lines=0
+Skipping image OS validation for hb__a5a9c66f0fabe56854f5d7c5b008504d: docker inspect returned 1
+Collecting main service artifacts

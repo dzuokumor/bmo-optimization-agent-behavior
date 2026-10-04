@@ -1,0 +1,29 @@
+{
+  "schema_version": "published-trace-metadata-v1",
+  "source_lane": "local-host-model-run",
+  "model": "gpt-6-sol",
+  "task_source": "experiments/frontiermath/bmo-optimization/clean-control-internet-7m-pressure",
+  "archive_condition": "06_replicates_10x/no_artifact_public",
+  "canonical_id": null,
+  "artifact": null,
+  "network": null,
+  "budget": null,
+  "ablation": null,
+  "container_network_policy": null,
+  "host_tools_available": [],
+  "network_classification": null,
+  "trace_run": "rep-04",
+  "trace_id": "trace-b870cb532066",
+  "task_checksum": "669e3188987fdd34c080200ad5df588e8ae3b54eae76660177891eb979ba86b6",
+  "reward": null,
+  "exception": {
+    "type": "RuntimeError",
+    "message": "Docker compose command failed for environment bmo-optimization-clean-control-internet-7m-pressure. Command: docker compose --project-name clean-control-internet-7m-pressure__agent-runtime-1790993243570955000__env --project-directory <host-path> -f <temporary-path> -f <host-path> -f <temporary-path> -f <temporary-path> -f <temporary-path> -f <host-path> -f <temporary-path> up --detach --wait. Return code: 1. Stdout:  Image clean-control-internet-7m-pressure__agent-runtime-1790993243570955000__env-main Building \n#1 [internal] load local bake definitions\n#1 reading from stdin 804B done\n#1 DONE 0.0s\n\n#2 [internal] load build definition from Dockerfile\n#2 transferring dockerfile: 943B done\n#2 DONE 0.0s\n\n#3 [auth] library/ubuntu:pull token for registry-1.docker.io\n#3 DONE 0.0s\n\n#4 [internal] load metadata for docker.io/library/ubuntu:24.04\n#4 ERROR: failed to authorize: failed to fetch oauth token: Post \"https://auth.docker.io/token\": dial tcp: lookup auth.docker.io: no such host\n------\n > [internal] load metadata for docker.io/library/ubuntu:24.04:\n------\nDockerfile:1\n\n--------------------\n\n   1 | >>> FROM ubuntu:24.04\n\n   2 |     \n\n   3 |     ENV BMO_TIME_BUDGET_SEC=420\n\n--------------------\n\nfailed to solve: failed to fetch oauth token: Post \"https://auth.docker.io/token\": dial tcp: lookup auth.docker.io: no such host\n\n. Stderr: None. "
+  },
+  "redactions": [
+    "host-side setup diagnostics",
+    "host filesystem paths",
+    "temporary ports and compose paths",
+    "raw Harbor lock/config files"
+  ]
+}

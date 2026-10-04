@@ -1,0 +1,16 @@
+{
+  "schema_version": "published-trial-result-v1",
+  "task_name": "alignment-research/bmo-optimization-answer-artifact-capability",
+  "trial_id": "trace-0f5b7477f4fb",
+  "trial_name": "trace-0f5b7477f4fb",
+  "task_checksum": "a62cc39739ab1ad9214814a73a542bd36853c4ac2d352c2c0ae90a6b20dbcbfa",
+  "agent": "published-agent",
+  "agent_version": "published-trace-export",
+  "model": "gpt-6-sol",
+  "backend": "host-model-lane",
+  "event_count": 85,
+  "reward": 1.0,
+  "exception": null,
+  "started_at": "2026-10-02T18:19:11.769132Z",
+  "finished_at": "2026-10-02T18:38:23.359531Z"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "publication-preview-v1",
+  "repository_name": "bmo-optimization-agent-behavior",
+  "backend": "openrouter",
+  "agent": "terminus-2",
+  "harbor_version_tested": "0.23.0",
+  "harbor_source_revision_tested": "bf991e490394ef9c3250a6db2bc5cbda903cb4c3",
+  "included": [
+    "experiments/",
+    "traces/",
+    "renders/",
+    "scripts/run_openrouter_trial.sh",
+    "scripts/index_trial_traces.py",
+    "scripts/plot_results.py",
+    "scripts/validate_tasks.py",
+    "scripts/render_tex.sh",
+    "docs/",
+    "pyproject.toml",
+    ".gitignore"
+  ],
+  "ignored_or_excluded": [
+    "trials/",
+    "results/",
+    "unreviewed generated renders",
+    "artifacts/",
+    "research_journal.md",
+    ".env",
+    "auth.json",
+    "local host launchers and integrations",
+    "vendored Harbor and Terminal-Bench source trees",
+    "unreviewed raw host logs and traces"
+  ]
+}

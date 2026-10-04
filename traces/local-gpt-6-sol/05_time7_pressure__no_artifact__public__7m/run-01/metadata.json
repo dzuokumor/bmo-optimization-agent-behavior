@@ -1,0 +1,26 @@
+{
+  "schema_version": "published-trace-metadata-v1",
+  "source_lane": "local-host-model-run",
+  "model": "gpt-6-sol",
+  "task_source": "experiments/frontiermath/bmo-optimization/clean-control-internet-7m-pressure",
+  "archive_condition": "05_time7_pressure/no_artifact__public__7m",
+  "canonical_id": null,
+  "artifact": "none",
+  "network": "public",
+  "budget": "7m",
+  "ablation": "time_pressure_7m",
+  "container_network_policy": null,
+  "host_tools_available": [],
+  "network_classification": null,
+  "trace_run": "run-01",
+  "trace_id": "trace-8b9d15f3c490",
+  "task_checksum": "0c951d764239dcfd5c5afc91d2066821d9ab42a4f923a7a9fd643b7826665889",
+  "reward": 1.0,
+  "exception": null,
+  "redactions": [
+    "host-side setup diagnostics",
+    "host filesystem paths",
+    "temporary ports and compose paths",
+    "raw Harbor lock/config files"
+  ]
+}

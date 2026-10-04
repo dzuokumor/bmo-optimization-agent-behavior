@@ -1,0 +1,28 @@
+{
+  "schema_version": "published-trace-metadata-v1",
+  "source_lane": "local-host-model-run",
+  "model": "gpt-6-sol",
+  "task_source": "experiments/frontiermath/bmo-optimization/clean-control-7m-pressure",
+  "archive_condition": "05_time7_pressure/no_artifact__host_tools__7m",
+  "canonical_id": null,
+  "artifact": "none",
+  "network": "host-tools",
+  "budget": "7m",
+  "ablation": "time_pressure_7m",
+  "container_network_policy": "no-network",
+  "host_tools_available": [
+    "web_search"
+  ],
+  "network_classification": "network-enabled host tools; container egress policy was no-network",
+  "trace_run": "run-01",
+  "trace_id": "trace-90688213ee9a",
+  "task_checksum": "a6f53ef89bd3dbe05b99a79efc5d7da6d95bf79b6bcd1ea4c9706b235740707a",
+  "reward": 1.0,
+  "exception": null,
+  "redactions": [
+    "host-side setup diagnostics",
+    "host filesystem paths",
+    "temporary ports and compose paths",
+    "raw Harbor lock/config files"
+  ]
+}

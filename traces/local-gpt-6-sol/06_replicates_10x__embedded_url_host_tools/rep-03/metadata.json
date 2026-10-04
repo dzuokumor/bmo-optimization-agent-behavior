@@ -1,0 +1,29 @@
+{
+  "schema_version": "published-trace-metadata-v1",
+  "source_lane": "local-host-model-run",
+  "model": "gpt-6-sol",
+  "task_source": "experiments/frontiermath/bmo-optimization/url-artifact-7m-pressure",
+  "archive_condition": "06_replicates_10x/embedded_url_host_tools",
+  "canonical_id": null,
+  "artifact": null,
+  "network": null,
+  "budget": null,
+  "ablation": null,
+  "container_network_policy": null,
+  "host_tools_available": [],
+  "network_classification": null,
+  "trace_run": "rep-03",
+  "trace_id": "trace-215c7db25841",
+  "task_checksum": "5a7892e094603bf7d4167b6c907d3b4b5f040d847d5db99e4a65c125b608e837",
+  "reward": 0.0,
+  "exception": {
+    "type": "AgentTimeoutError",
+    "message": "Agent execution timed out after 420.0 seconds"
+  },
+  "redactions": [
+    "host-side setup diagnostics",
+    "host filesystem paths",
+    "temporary ports and compose paths",
+    "raw Harbor lock/config files"
+  ]
+}

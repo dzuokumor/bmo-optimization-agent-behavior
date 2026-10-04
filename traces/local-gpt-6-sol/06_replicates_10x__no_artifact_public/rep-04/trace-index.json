@@ -1,0 +1,40 @@
+{
+  "schema_version": "published-trace-index-v1",
+  "files": [
+    {
+      "path": "metadata.json",
+      "bytes": 2266,
+      "sha256": "9938c39493801a23f1fa2327c3f1544ab387698bcfbc795b77cd837b3d065f29"
+    },
+    {
+      "path": "result.public.json",
+      "bytes": 2026,
+      "sha256": "6035fc03602c2467eab2a352b00c85db2ee5d80ca2f1e2bc3a48f5ef167cb166"
+    },
+    {
+      "path": "trial.log",
+      "bytes": 1538,
+      "sha256": "889a65865b24818524a3c7633f16c50acea978802d33e6e9fb33e71e0360b9de"
+    }
+  ],
+  "published_expected_files": [
+    "agent/interaction.log",
+    "agent/trajectory.json",
+    "metadata.json",
+    "result.public.json",
+    "trial.log",
+    "verifier/reward.txt",
+    "verifier/test-stdout.txt"
+  ],
+  "present_expected_files": [
+    "metadata.json",
+    "result.public.json",
+    "trial.log"
+  ],
+  "missing_expected_files": [
+    "agent/interaction.log",
+    "agent/trajectory.json",
+    "verifier/reward.txt",
+    "verifier/test-stdout.txt"
+  ]
+}
